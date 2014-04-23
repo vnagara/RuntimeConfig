@@ -1,0 +1,12 @@
+<?php
+$config = array(
+    'intl.default_locale' => 'en_US_POSIX',
+
+    'mbstring.internal_encoding' => 'UTF-8',
+    'zend.multibyte' => true,
+    'iconv.internal_encoding' => 'UTF-8',
+);
+
+return array(
+    'runtime_config' => $config,
+);
